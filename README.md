@@ -1,3 +1,4 @@
 # DCNN for Classification of Persian Arabic Numbers
 In this code, we implemented a deep convolutional neural network (DCNN) to classify handwritten Persian/Arabic numbers based on this paper[ref]. In this implementation, we analyzed three separate optimizers, including Adam, Adadelta and Momentum based on DCNN’s convergence during training stage and its performance in testing stage. Our findings demonstrated that on this specific dataset, the accuracy of DCNN with Adam, 0.996, was slightly more than two other optimizers, although the difference was insignificant. In terms of training stability and loss convergence, we saw that Adadelta was the best one which corresponding loss curves are depicted below.
 
+![DCNN](https://github.com/ErshadHasanpour/Classification-of-Handwritten-Persian-Arabic-Numbers-using-DCNN/assets/96794427/29caa09d-bb49-46f0-b280-dea7ef6bdaf5)
